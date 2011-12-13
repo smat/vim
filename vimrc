@@ -13,6 +13,9 @@ set shiftwidth=4
 " always uses spaces instead of tab characters
 set expandtab
 
+" Set leader to ,
+let mapleader = ","
+
 
 source ~/.vim/keybindings.vim
 
