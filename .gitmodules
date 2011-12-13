@@ -1,0 +1,6 @@
+[submodule "bundle/puppet"]
+	path = bundle/puppet
+	url = git://github.com/rodjek/vim-puppet.git
+[submodule "bundle/nerdetree"]
+	path = bundle/nerdetree
+	url = git://github.com/scrooloose/nerdtree.git
