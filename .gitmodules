@@ -4,3 +4,9 @@
 [submodule "bundle/nerdetree"]
 	path = bundle/nerdetree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-peepopen"]
+	path = bundle/vim-peepopen
+	url = git://github.com/shemerey/vim-peepopen.git
+[submodule "bundle/vim-vagrant"]
+	path = bundle/vim-vagrant
+	url = git://github.com/pavel-v-chernykh/vim-vagrant.git
