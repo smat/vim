@@ -16,6 +16,9 @@ set expandtab
 " Set leader to ,
 let mapleader = ","
 
+" Show menu of files when autocompleting
+set wildmenu
+
 
 source ~/.vim/keybindings.vim
 
