@@ -10,3 +10,6 @@
 [submodule "bundle/vim-vagrant"]
 	path = bundle/vim-vagrant
 	url = git://github.com/pavel-v-chernykh/vim-vagrant.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
