@@ -5,10 +5,10 @@ call pathogen#infect()
 syntax on
 
 " size of a tab
-set tabstop=4
+set tabstop=2
 
 " size of an "indent"
-set shiftwidth=4
+set shiftwidth=2
 
 " always uses spaces instead of tab characters
 set expandtab
