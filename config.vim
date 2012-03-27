@@ -29,4 +29,7 @@ set laststatus=2
 " Change statusline to something better
 "set statusline=%t\ %y\ format:\ %{&ff};\ %{fugitive#statusline()}
 
-
+" Do not show toolbar in MacVim
+if has("gui_running")
+    set guioptions=egmrt
+endif
