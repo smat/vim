@@ -21,4 +21,4 @@ set wildmenu
 
 
 source ~/.vim/keybindings.vim
-
+source ~/.vim/ctrlp_config.vim
