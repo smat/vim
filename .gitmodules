@@ -25,3 +25,6 @@
 [submodule "bundle/ruby-matchit"]
 	path = bundle/ruby-matchit
 	url = https://github.com/vim-scripts/ruby-matchit.git
+[submodule "bundle/vim-matchit"]
+	path = bundle/vim-matchit
+	url = https://github.com/tsaleh/vim-matchit.git
