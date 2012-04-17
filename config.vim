@@ -2,13 +2,18 @@
 syntax on
 
 " size of a tab
-set tabstop=2
+set tabstop=8
 
 " size of an "indent"
 set shiftwidth=2
 
-" always uses spaces instead of tab characters
+" always uses spaces instead of tab characters, and set size of space-tab
 set expandtab
+set softtabstop=2
+
+" Show pretty tabs
+set list
+set listchars=tab:>-,precedes:<,extends:>,trail:~
 
 " Set leader to ,
 let mapleader = ","
