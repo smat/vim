@@ -21,6 +21,9 @@ let mapleader = ","
 " Show menu of files when autocompleting
 set wildmenu
 
+" Change to tab instead of open in same tab if already opened in tab
+set switchbuf=usetab
+
 " Show line number and ruler
 set number
 set ruler
