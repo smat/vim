@@ -14,6 +14,9 @@ set autoindent
 set expandtab
 set softtabstop=2
 
+" Enable mouse support in iTerm2
+set mouse=a
+
 " Show pretty tabs
 set list
 set listchars=tab:>-,precedes:<,extends:>,trail:~
