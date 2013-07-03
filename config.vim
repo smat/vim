@@ -1,6 +1,8 @@
 " Enable syntax highlighting
 syntax on
 
+set background=dark
+colorscheme solarized
 " size of a tab
 set tabstop=8
 
