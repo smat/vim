@@ -32,8 +32,12 @@ set wildmode=longest,list
 set switchbuf=usetab
 
 " Show line number and ruler
-set number
 set ruler
+if version >= 703
+  set relativenumber
+else
+  set number
+endif
 
 " Always keep a couple of lines above/below curser
 set scrolloff=3
