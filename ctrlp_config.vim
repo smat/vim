@@ -1,5 +1,7 @@
 set wildignore+=*.so,*.swp,*.zip  " MacOSX/Linux
 
+let g:ctrlp_by_filename = 1
+
 " Ignore files
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$',
