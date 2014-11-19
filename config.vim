@@ -65,7 +65,10 @@ au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
 " Change statusline to something better
 "set statusline=%t\ %y\ format:\ %{&ff};\ %{fugitive#statusline()}
 
+let g:miniBufExplorerAutoStart = 0
+
 " Do not show toolbar in MacVim
 if has("gui_running")
     set guioptions=egmrt
 endif
+
