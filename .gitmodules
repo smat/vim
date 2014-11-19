@@ -55,3 +55,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git@github.com:scrooloose/syntastic.git
+[submodule "bundle/vim-todo"]
+	path = bundle/vim-todo
+	url = git@github.com:hash-bang/vim-todo.git
