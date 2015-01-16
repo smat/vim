@@ -1,5 +1,5 @@
 
-filetype plugin on
+filetype plugin indent on
 
 call pathogen#infect() 
 

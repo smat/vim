@@ -58,3 +58,18 @@
 [submodule "bundle/vim-todo"]
 	path = bundle/vim-todo
 	url = git@github.com:hash-bang/vim-todo.git
+[submodule "bundle/workflowish"]
+	path = bundle/workflowish
+	url = git@github.com:lukaszkorecki/workflowish.git
+[submodule "bundle/vim-orgmode"]
+	path = bundle/vim-orgmode
+	url = git@github.com:jceb/vim-orgmode.git
+[submodule "bundle/vim-speeddating"]
+	path = bundle/vim-speeddating
+	url = git@github.com:tpope/vim-speeddating.git
+[submodule "bundle/VimOrganizer"]
+	path = bundle/VimOrganizer
+	url = git@github.com:hsitz/VimOrganizer.git
+[submodule "bundle/vim-multiple-cursor"]
+	path = bundle/vim-multiple-cursor
+	url = git@github.com:terryma/vim-multiple-cursors.git

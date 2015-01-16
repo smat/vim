@@ -24,6 +24,7 @@ set listchars=tab:>-,precedes:<,extends:>,trail:~
 
 " Set leader to ,
 let mapleader = ","
+let maplocalleader = "-"
 
 " Show menu of files when autocompleting
 set wildmenu
