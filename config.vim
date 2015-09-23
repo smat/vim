@@ -1,3 +1,6 @@
+
+let g:markdown_fenced_languages = ['css', 'erb=eruby', 'javascript', 'js=javascript', 'json=javascript', 'ruby', 'xml', 'bash=sh', 'sh']
+
 " Enable syntax highlighting
 syntax on
 
@@ -60,8 +63,9 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 autocmd FileType c setlocal omnifunc=ccomplete#Complete
 
-" Indent xml
+" Indent xml/json
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
+au FileType javascript setlocal equalprg=jsonlint\ -p
 
 " Change statusline to something better
 "set statusline=%t\ %y\ format:\ %{&ff};\ %{fugitive#statusline()}
@@ -73,3 +77,16 @@ if has("gui_running")
     set guioptions=egmrt
 endif
 
+function! SectionFold(lnum)
+    if getline(a:lnum) =~? '<section' && getline(a:lnum) =~? '</section>'
+      return '='
+    endif
+    if getline(a:lnum) =~? '<section'
+        return 'a1'
+    endif
+    if getline(a:lnum) =~? '</section>'
+        return 's1'
+    endif
+
+    return '='
+endfunction
