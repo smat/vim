@@ -1,36 +1,30 @@
 [submodule "bundle/puppet"]
 	path = bundle/puppet
-	url = https://github.com/smat/vim-puppet.git
+	url = git@github.com:smat/vim-puppet.git
 [submodule "bundle/nerdetree"]
 	path = bundle/nerdetree
 	url = git@github.com:scrooloose/nerdtree.git
 [submodule "bundle/vim-peepopen"]
 	path = bundle/vim-peepopen
 	url = git://github.com/shemerey/vim-peepopen.git
-[submodule "bundle/vim-vagrant"]
-	path = bundle/vim-vagrant
-	url = git://github.com/pavel-v-chernykh/vim-vagrant.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
-	url = https://github.com/godlygeek/tabular.git
+	url = git@github.com:godlygeek/tabular.git
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git@github.com:kien/ctrlp.vim.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
+	url = git@github.com:tpope/vim-fugitive.git
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
+	url = git@github.com:mileszs/ack.vim.git
 [submodule "bundle/ruby-matchit"]
 	path = bundle/ruby-matchit
-	url = https://github.com/vim-scripts/ruby-matchit.git
-[submodule "bundle/vim-matchit"]
-	path = bundle/vim-matchit
-	url = https://github.com/tsaleh/vim-matchit.git
+	url = git@github.com:vim-scripts/ruby-matchit.git
 [submodule "bundle/xptemplate"]
 	path = bundle/xptemplate
-	url = https://github.com/vim-scripts/xptemplate.git
+	url = git@github.com:vim-scripts/xptemplate.git
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = git@github.com:derekwyatt/vim-scala.git
@@ -42,16 +36,13 @@
 	url = git@github.com:benmills/vimux.git
 [submodule "bundle/tslime"]
 	path = bundle/tslime
-	url = git@github.com:kikijump/tslime.vim.git
+	url = git@github.com:vim-scripts/tslime.vim
 [submodule "bundle/minibufexpl"]
 	path = bundle/minibufexpl
 	url = git@github.com:techlivezheng/vim-plugin-minibufexpl.git
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git@github.com:altercation/vim-colors-solarized.git
-[submodule "bundle/vim-copy-as-rtf"]
-	path = bundle/vim-copy-as-rtf
-	url = git@github.com:zerowidth/vim-copy-as-rtf.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git@github.com:scrooloose/syntastic.git
@@ -73,3 +64,12 @@
 [submodule "bundle/vim-multiple-cursor"]
 	path = bundle/vim-multiple-cursor
 	url = git@github.com:terryma/vim-multiple-cursors.git
+[submodule "bundle/dockerfile"]
+	path = bundle/dockerfile
+	url = git@github.com:ekalinin/Dockerfile.vim.git
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
+	url = git@github.com:markcornick/vim-terraform.git
+[submodule "bundle/vimpager"]
+	path = bundle/vimpager
+	url = https://github.com/rkitover/vimpager.git
