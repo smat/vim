@@ -3,6 +3,7 @@ let g:markdown_fenced_languages = ['css', 'erb=eruby', 'javascript', 'js=javascr
 
 " Enable syntax highlighting
 syntax on
+set modeline
 
 set background=dark
 colorscheme solarized
@@ -74,7 +75,7 @@ let g:miniBufExplorerAutoStart = 0
 
 " Do not show toolbar in MacVim
 if has("gui_running")
-    set guioptions=egmrt
+    set guioptions=iegmrt
 endif
 
 function! SectionFold(lnum)

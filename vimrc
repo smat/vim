@@ -9,4 +9,4 @@ source ~/.vim/xptemplate_config.vim
 source ~/.vim/ctrlp_config.vim
 source ~/.vim/syntastic_config.vim
 
-au GUIEnter * set guifont=Monaco:h16
+au GUIEnter * set guifont=Hack\ 12
