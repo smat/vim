@@ -76,3 +76,9 @@
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = git@github.com:fatih/vim-go.git
+[submodule "bundle/vim-tickscript"]
+	path = bundle/vim-tickscript
+	url = https://github.com/nathanielc/vim-tickscript.git
+[submodule "bundle/plantuml-syntax"]
+	path = bundle/plantuml-syntax
+	url = git@github.com:aklt/plantuml-syntax.git
